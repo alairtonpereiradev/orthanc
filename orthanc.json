@@ -1,0 +1,16 @@
+{
+    "Name" : "${ORTHANC_NAME} in Docker Compose",
+    "RemoteAccessAllowed" : true,
+
+    "PostgreSQL" : {
+        "EnableIndex" : true,
+        "EnableStorage" : true,
+        "Host" : "dbpostgres",
+        "Port" : 5432,
+        "Database" : "orthanc",
+        "Username" : "orthanc",
+        "Password" : "orthanc"
+      }
+}
+
+ 
